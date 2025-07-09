@@ -46,7 +46,7 @@ Creado por **Eduardo Castillo (LU9DCE)**.
 
 ---
 
-## Compilación y Ejecución
+## Ejecución
 
 Ejecutar el programa necesitarás tener Java instalado.
 
