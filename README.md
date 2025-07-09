@@ -4,6 +4,8 @@
 
 Creado por **Eduardo Castillo (LU9DCE)**.
 
+![](https://raw.githubusercontent.com/hellocodelinux/jtelnetx/refs/heads/main/captura.png)
+
 ---
 
 ## Características Principales
