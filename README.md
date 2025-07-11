@@ -4,8 +4,6 @@
 
 Creado por **Eduardo Castillo (LU9DCE)**.
 
-![](https://raw.githubusercontent.com/hellocodelinux/jtelnetx/refs/heads/main/captura.png)
-
 ---
 
 ## Características Principales
@@ -13,6 +11,8 @@ Creado por **Eduardo Castillo (LU9DCE)**.
 *   **Conexión a DX Cluster**: Conéctate a tu DX Cluster preferido a través de Telnet simplemente ingresando la IP y el puerto.
 *   **Interfaz de Terminal Clásica**: Una interfaz limpia y sencilla estilo terminal, con texto coloreado para una fácil lectura de los spots.
 *   **Resaltado de Spots**: Los spots se resaltan automáticamente con diferentes colores según el modo de operación (CQ/DX, Digital, CW), permitiéndote identificar rápidamente lo que buscas.
+*   **Filtros de Banda y Modo**: Controla el flujo de spots con filtros de un solo clic. Activa o desactiva bandas específicas (80m, 40m, etc.) y filtra los spots de SSB y CW para concentrarte en modos digitales.
+*   **Indicadores de Actividad**: Botones visuales para "CQ/DX", "DIGI" y "CW" se iluminan para darte una referencia rápida del tipo de actividad que está reportando el cluster.
 *   **Integración con Log ADI**: Carga tu archivo de log en formato `.adi` para que el programa pueda verificar si un spot corresponde a una estación que ya has contactado.
 *   **Alertas para Nuevos Contactos**:
     *   **Alerta Visual**: Muestra una notificación emergente en pantalla cuando aparece un spot de una estación que no está en tu log.
@@ -42,7 +42,10 @@ Creado por **Eduardo Castillo (LU9DCE)**.
 4.  **Conectar**:
     *   Haz clic en `ARCHIVO` -> `CONECTAR`. El programa se conectará al cluster y comenzará a mostrar los spots. El botón "ONLINE" se pondrá verde.
 
-5.  **Activar Alertas y AutoSpot**:
+5.  **Usar los Filtros**:
+    *   En la barra inferior, encontrarás botones para cada banda (80m, 40m, etc.) y para SSB. Haz clic en ellos para activar o desactivar los filtros correspondientes. Los botones verdes indican que el filtro está activo (los spots se mostrarán), mientras que los rojos indican que está inactivo.
+
+6.  **Activar Alertas y AutoSpot**:
     *   En el menú `ALERTA`, puedes activar las notificaciones `SONIDO` y/o `VISUAL`.
     *   En el menú `AUTOSPOT`, puedes activar los listeners `TCP` o `UDP` para que JTelnetX reciba datos de tu software de logging y pueda enviar spots automáticamente.
 
