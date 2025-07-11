@@ -6,6 +6,8 @@ Creado por **Eduardo Castillo (LU9DCE)**.
 
 ---
 
+![JTelnetX Screenshot](https://raw.githubusercontent.com/hellocodelinux/jtelnetx/refs/heads/main/captura.png)
+
 ## Características Principales
 
 *   **Conexión a DX Cluster**: Conéctate a tu DX Cluster preferido a través de Telnet simplemente ingresando la IP y el puerto.
@@ -59,7 +61,7 @@ Ejecutar el programa necesitarás tener Java instalado.
 
 2.  Ejecuta el programa:
     ```bash
-    java jtelnetx
+    java -jar jtelnetx.jar
     ```
 
 ---
